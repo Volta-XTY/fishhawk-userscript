@@ -38,11 +38,6 @@
 也就是说，要实现最快最紧凑的翻译，必须将所有章节分为一个个孤立的任务，每个任务只含有一个章节，而目前的网站禁止了这种操作。
 于是这个脚本就是为了解决这个问题设计的，点击以后，会自动获取还没有Sakura翻译的章节，将之一个个添加至Sakura工作区。
 
-#### `CheckNewWenku()`
-
-只要页面处于「Sakura工作区」，就会自动检测各个分级还没有完整GPT或Sakura翻译的文库本，将之添加至Sakura工作区。
-由于作者也在用这个功能，因此实际上这个功能有可能导致巨大的算力浪费，未来考虑删除。
-
 #### `ExtendWorkerItem()` `RunStalledWorker()` `RetryFailedTasks()` `RemoveFinishedTasks()`
 
 Sakura工作区四件套，是这个脚本最为重要的功能（对我来说）：
