@@ -583,7 +583,6 @@ const OnMutate = async (mutlist, observer) => {
     AdvancedSearch();
     AddWenkuCheckerButton();
     AddJobQueuer();
-    CheckNewWenku();
     ExtendWorkerItem();
     RunStalledWorker();
     RetryFailedTasks();
